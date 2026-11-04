@@ -24,7 +24,6 @@
 - The horde is thinner during the boss fight.
 - Auto-aimed skills (bolt, cone, spark, rain and familiars) pick the boss first when it is in reach.
 - More food drops from crates and urns when health is very low.
-- New item: the Vacuum Orb (from crates and urns) pulls every XP gem on the map to you.
 
 **Skills**
 - Flame Cone: follows the player, lasts longer and is cast more often.
@@ -33,5 +32,4 @@
 - Ashen Heart: now gives +20 max health in points (it used to be 20% of the base health).
 
 **Other**
-- Passive skills go up to level 5 and active skills to level 8; a level-up card shows the partner skill's icon when a combination is possible.
-- The Feedback button opens the Google Forms survey.
+- A level-up card shows the partner skill's icon when a combination is possible.
