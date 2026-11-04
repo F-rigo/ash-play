@@ -1,5 +1,12 @@
 # Patch notes
 
+## alpha 0.5 (2026-11-04)
+- Account level (1 to 20): every run gives account XP, also when you quit from the pause window; each new level pays coins, and some levels unlock new looks.
+- Looks: a Look button on the start screen; first new look is the Ash Mage.
+- Companions: enemies drop souls (glowing marked enemies drop rare ones); collect them to unlock and level up companions that fight at your side. New Collection window to see and equip them.
+- Lighter start screen, and the health bar at the top is gone (the one over the character stays).
+- The first three minutes are a bit harder.
+
 ## alpha 0.4 (2026-11-04)
 - Coin shop: six permanent upgrades bought with saved coins, on the start screen.
 - Retro sound effects and music, with a Sound on/off button (start screen and pause window).
