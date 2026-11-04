@@ -1,5 +1,12 @@
 # Patch notes
 
+## alpha 0.4 (2026-11-04)
+- Coin shop: six permanent upgrades bought with saved coins, on the start screen.
+- Retro sound effects and music, with a Sound on/off button (start screen and pause window).
+- Health bar over the character, which blinks red when hit.
+- Main Menu button after a run and Quit to menu in the pause window.
+- Shields drop more often; the boss now appears at 12:30.
+
 ## alpha 0.3 (2026-11-04)
 
 **Gameplay**
