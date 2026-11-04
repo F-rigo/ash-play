@@ -1,5 +1,15 @@
 # Patch notes
 
+## alpha 0.3 (2026-11-04)
+
+**Gameplay**
+- A big banner and a red flash announce the boss when it appears, with a line of its own for each of the four bosses.
+- Ash Totem: the cooldown now starts when the totems vanish, so there are always gaps between them; all the totems you are allowed plant at once, spread around you. A pulse takes at most 40% of a regular mob's health (three pulses to kill one); the boss takes full damage.
+
+**Fixes**
+- Level-up cards no longer grow wider than the screen when a skill description is long.
+- The HUD timer is centered on the bars and the coin counter ends where they end.
+
 ## alpha 0.2 (2026-11-04)
 
 **Visuals**
