@@ -1,5 +1,11 @@
 # Patch notes
 
+## alpha 0.7.1 (2026-11-05)
+- Tower power orbs: pickups that make you stronger only inside the Tower: Power (damage), Vitality (max health) and Swiftness (move speed). Each boss defeated drops one of each, and a random orb drops near you every minute. Each kind has a limit per run. The campaign and the skills are untouched.
+- Tower pacing: enough kills call the next boss early, so strong players climb faster. The first floors are gentler (first boss at 5 minutes, with less health and damage) and the climb gets very hard past floor 6. Enemies also get faster with time.
+- General balance after more than 1100 bot runs: Ash Summoner a bit stronger (more health and Cinder Bolt damage; Ash Nova, Ember Orbit and Chain Spark hit harder). Shaman weaker (wolf, health, healing and shield). Dark Knight weaker (health and Cleaving Strike). Vessa and Haskor hurt less, and there are fewer enemies during the boss fight.
+- Smaller download: images that were not part of the game are gone from the web build.
+
 ## alpha 0.7 (2026-11-05)
 - Classes: choose your class in a new Class window (button on the start screen). Two new playable classes besides the Ash Summoner:
   - Shaman: leads a Spirit Wolf pack, with Mending Spring (heals) and Stone Ward (shield). Looks: Storm Shaman, and Forest Shaman at account level 2.
