@@ -1,5 +1,13 @@
 # Patch notes
 
+## alpha 0.6 (2026-11-05)
+- Looks: choose your character's look in a new Looks window (button under the character on the start screen); locked looks show the account level that opens them.
+- Backup: a code with your whole progress that you can copy and paste on another device (Backup button on the start screen, with a Paste button).
+- Sound: separate Music and Effects switches (start screen and pause window); lower volume and a limiter so loud moments no longer crackle.
+- End of a run: mobs defeated and XP collected, with a NEW RECORD mark when you beat your best.
+- The game pauses by itself when you leave the app, and Android's Back button closes windows and opens the pause window.
+- The pause window is bigger, and the end-of-run window scrolls when it has a lot to show.
+
 ## alpha 0.5 (2026-11-04)
 - Account level (1 to 20): every run gives account XP, also when you quit from the pause window; each new level pays coins, and some levels unlock new looks.
 - Looks: a Look button on the start screen; first new look is the Ash Mage.
