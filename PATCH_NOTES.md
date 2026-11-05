@@ -1,5 +1,15 @@
 # Patch notes
 
+## alpha 0.7 (2026-11-05)
+- Classes: choose your class in a new Class window (button on the start screen). Two new playable classes besides the Ash Summoner:
+  - Shaman: leads a Spirit Wolf pack, with Mending Spring (heals) and Stone Ward (shield). Looks: Storm Shaman, and Forest Shaman at account level 2.
+  - Dark Knight: tougher, no ranged attack; fights with Cleaving Strike, Whirling Blades and Grave Slam. Has his own look.
+  - Each class has its own skills, level-up cards and new skill combinations.
+- Tower mode: an endless climb with a boss every 4 minutes; each boss defeated is a floor, and enemies get stronger with floors and time. Records for best floor, time and damage.
+- Tower rewards: coins and account XP only for floors beyond your best of the season (no XP for time). Titles at floors 5, 10 and 20, and a Tower-only look, the Tower Champion (floor 10).
+- Share result: after a Tower run, copy a text with your result to send to friends.
+- Play Again restarts the Tower right away.
+
 ## alpha 0.6 (2026-11-05)
 - Looks: choose your character's look in a new Looks window (button under the character on the start screen); locked looks show the account level that opens them.
 - Backup: a code with your whole progress that you can copy and paste on another device (Backup button on the start screen, with a Paste button).
