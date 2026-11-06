@@ -1,5 +1,9 @@
 # Patch notes
 
+## alpha 0.7.3.1 (2026-11-06)
+- Fix: in the automatic low quality mode a skill effect (the Ash Nova ring, for example) could be left on the screen, following the character, instead of fading away. Effects are now always cleared when they end.
+- Fix: XP orbs stopped dropping in a part of the map after you had left many orbs behind in another one (the new orb merged into a far one). Now the limit counts the orbs around you; when there are too many around you a new orb flies to you at once, and orbs left far away never stop new ones from dropping.
+
 ## alpha 0.7.3 (2026-11-06)
 - Pets: one pet only. The pet skills no longer add more pets: the single pet grows stronger with the levels and gives you a small bonus. Only one collectible companion can be equipped.
 - Cone skills now fire toward the direction you are walking, not at the nearest enemy.
