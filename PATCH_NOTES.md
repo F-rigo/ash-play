@@ -1,5 +1,15 @@
 # Patch notes
 
+## alpha 0.7.2 (2026-11-06)
+- Every class now has eight active skills to choose from and holds four of them, like the eight passives.
+- Shaman: fights with a new Sky Bolt; Chain Spark and the Ash Totem are his now, plus Rime Jolt and Storm Ring. The Spirit Wolf is a choice, not the start.
+- Ash Summoner: new Soul Siphon and Ashen Hound.
+- Dark Knight: an ice look with new names (Rime Cleave, Winter Gale, Frost Spikes) and the same numbers; new Bone Ward, Blood Pool, Wyrm's Breath, Winter Pulse and Risen Thrall.
+- The sword sweep now always starts at the character, at any level.
+- The XP bar takes the whole width, with the Pause and Help buttons under it.
+- Performance: enemies, XP gems and the ground are now drawn once into pictures and reused (at 120 enemies the frames cost about a third as much and the draw calls fell from 3500 to 850 on a PC); lightning trails of the Shaman last half as long and hit twice as hard per tick; fewer gems on screen (they merge); far-away crates are removed.
+- Skills are smaller: Wide Flames gives +10% area per level (was 15%), and the big radii of the area skills and their combinations were reduced (a maxed area skill no longer covers the whole screen width).
+
 ## alpha 0.7.1 (2026-11-05)
 - Tower power orbs: pickups that make you stronger only inside the Tower: Power (damage), Vitality (max health) and Swiftness (move speed). Each boss defeated drops one of each, and a random orb drops near you every minute. Each kind has a limit per run. The campaign and the skills are untouched.
 - Tower pacing: enough kills call the next boss early, so strong players climb faster. The first floors are gentler (first boss at 5 minutes, with less health and damage) and the climb gets very hard past floor 6. Enemies also get faster with time.
