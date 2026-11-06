@@ -1,5 +1,16 @@
 # Patch notes
 
+## alpha 0.7.3 (2026-11-06)
+- Pets: one pet only. The pet skills no longer add more pets: the single pet grows stronger with the levels and gives you a small bonus. Only one collectible companion can be equipped.
+- Cone skills now fire toward the direction you are walking, not at the nearest enemy.
+- Boss fight: the stage clock stops while the boss is alive, so the stage ends when he is beaten. A boss that you run from for 3 minutes gets 25% stronger (and again every minute), with a warning on the screen.
+- Tower and menus: bigger test jumps for testers, and the pictures of the enemies and the ground are made while the menu is shown, so the first seconds of a run are smoother.
+- Smoother game on weak phones: the fire and lightning patches on the ground, the enemies, the gems and the ground are drawn from stored pictures, and many small jobs were made lighter. On the phones we measured the frame rate of the heavy moments went from about 15 to about 30 frames per second.
+- Automatic low quality: if the game stays under 36 frames per second for 30 seconds, it switches itself to a lighter look (no death bursts, no wobble, fewer gem pictures, half of the ground patches not drawn, smaller pictures, effects redrawn every second frame) and remembers it on that device. The game is NOT easier: the same enemies, the same damage, the same XP.
+- Fire trails of the Ash Summoner last 2 seconds and hit harder, so the total damage is the same with fewer patches on screen.
+- The Rime Cleave of the Dark Knight hits everything that steps into its fan, and the whole fan is drawn. The Storm Ring of the Shaman is easier to see. The Tower coin counter shows what the floors paid.
+- Test builds only: an Auto test button in the debug panel plays 12 heavy situations by itself and reports the frame rate of the device.
+
 ## alpha 0.7.2 (2026-11-06)
 - Every class now has eight active skills to choose from and holds four of them, like the eight passives.
 - Shaman: fights with a new Sky Bolt; Chain Spark and the Ash Totem are his now, plus Rime Jolt and Storm Ring. The Spirit Wolf is a choice, not the start.
