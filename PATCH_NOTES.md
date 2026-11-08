@@ -1,5 +1,14 @@
 # Patch notes
 
+## alpha 0.8 (2026-11-08)
+- New menu. PLAY opens a flow: mode (Traditional or Tower), a short text about the mode with OK, the stage list (Traditional), the character, the companion and START. Every step has Back. The Tower button left the main screen: the Tower is a mode now. QUICK START repeats the last mode, stage and class. A loading screen covers the moment the game reloads for another stage or class and for Play again.
+- The stage list shows the rules of each open stage (a harder start, a better pay, walls) and a tip.
+- Character screen: a card for each class, with its picture, description, starting skill, health, speed and pickup range, and the looks of the chosen class; a locked look says how to unlock it.
+- New stage 1-2, Frozen Reach (opens by clearing stage 1-1 with any class): snow, five new enemies (Rime Lurker, Frost Imp, Hoar Dart, Glacier Brute and the Sleet Archer, which keeps its distance and throws ice shards), and low stone walls with snow that block you, the enemies and the enemy shots, so you can hide behind them. It starts with the enemies of minute 2 of stage 1, so it pushes you to buy shop upgrades first, and it pays 1.5x coins and account XP and a bigger victory bonus.
+- New boss, Kaldrun the Glacier Warden (stage 1-2 only): he marks the line of a dash on the ground, and a dash that hits a wall breaks it and stuns him for 2 seconds (he takes 30% more damage then); below half health a broken wall also bursts into ice shards.
+- New look for the Dark Knight, the Rime Sovereign, earned by clearing stage 1-2 with him. Beating a stage with a class is saved per class.
+- XP: from level 35 each level needs 15% more XP than the one before (it was 23%), so the levels past 40 no longer stall.
+
 ## alpha 0.7.4 (2026-11-08)
 - Steadier game on iPhones: the effects, pets, pickups, joystick and arrows are no longer redrawn every frame; each picture is made once and only moved, turned and faded. Redrawing shapes every frame filled the memory of iPhone browsers until the page reloaded by itself. A 40 minute test on an iPhone ran without a reload, with flat memory and 60 frames per second even with 100 enemies on screen. Nothing was removed or made easier: the same effects, enemies and damage.
 - Smoother on phones with a sharp screen: the game is drawn at its own size and the picture is stretched to the screen, instead of drawing every pixel of the screen. On a 1440x3120 phone this gave 10-20% more frames per second, far fewer slow frames and about 75 MB less memory; an iPhone gained 10-15%. Computers keep the screen's own size. Only the picture changes, the game is the same.
