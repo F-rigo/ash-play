@@ -97,7 +97,7 @@ body {
 
 		<script>(function(){function cap(m){if(m!=null)window._ashWasmMem=m;}function hook(r){try{var e=r.instance?r.instance.exports:r.exports;if(e!=null){for(var k in e){if(e[k] instanceof WebAssembly.Memory)cap(e[k]);}}}catch(x){}return r;}var i=WebAssembly.instantiate,s=WebAssembly.instantiateStreaming;WebAssembly.instantiate=function(a,b){try{cap(b.env.memory);}catch(x){}return i.apply(this,arguments).then(hook);};if(s){WebAssembly.instantiateStreaming=function(a,b){try{cap(b.env.memory);}catch(x){}return s.apply(this,arguments).then(hook);};}})();window.addEventListener("webglcontextlost",function(){try{localStorage.setItem("ash_gpu_lost",String(Date.now()));}catch(x){}},true);</script><script src="../index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"ensureCrossOriginIsolationHeaders":true,"executable":"../index","mainPack":"game-de6e09c-1559.pck","experimentalVK":false,"fileSizes":{"game-de6e09c-1559.pck":557824,"../index.wasm":35376909},"focusCanvas":true,"gdextensionLibs":[]};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"ensureCrossOriginIsolationHeaders":true,"executable":"../index","mainPack":"game-f836453-1649.pck","experimentalVK":false,"fileSizes":{"game-f836453-1649.pck":571280,"../index.wasm":35376909},"focusCanvas":true,"gdextensionLibs":[]};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
