@@ -1,5 +1,16 @@
 # Patch notes
 
+## alpha 0.7.4 (2026-11-08)
+- Steadier game on iPhones: the effects, pets, pickups, joystick and arrows are no longer redrawn every frame; each picture is made once and only moved, turned and faded. Redrawing shapes every frame filled the memory of iPhone browsers until the page reloaded by itself. A 40 minute test on an iPhone ran without a reload, with flat memory and 60 frames per second even with 100 enemies on screen. Nothing was removed or made easier: the same effects, enemies and damage.
+- Smoother on phones with a sharp screen: the game is drawn at its own size and the picture is stretched to the screen, instead of drawing every pixel of the screen. On a 1440x3120 phone this gave 10-20% more frames per second, far fewer slow frames and about 75 MB less memory; an iPhone gained 10-15%. Computers keep the screen's own size. Only the picture changes, the game is the same.
+- No sound for now: music and effects are off on every device and their buttons are hidden. On iPhone browsers the game engine (Godot 4.3) leaks memory with every sound until the page reloads by itself after 12-17 minutes; the fix comes with a newer engine version.
+- Campaign boss fight: when the boss arrives the horde thins to 35 enemies (the farthest ones leave) and fewer enemies come during the fight, and the boss has 15% less health. The Tower does not change.
+- Test builds only: a long play bot (soak test) that plays by itself for an hour and reports frame rate and memory, with a black box of the last 30 seconds if the page crashes.
+
+## alpha 0.7.3.1 (2026-11-06)
+- Fix: in the automatic low quality mode a skill effect (the Ash Nova ring, for example) could be left on the screen, following the character, instead of fading away. Effects are now always cleared when they end.
+- Fix: XP orbs stopped dropping in a part of the map after you had left many orbs behind in another one (the new orb merged into a far one). Now the limit counts the orbs around you; when there are too many around you a new orb flies to you at once, and orbs left far away never stop new ones from dropping.
+
 ## alpha 0.7.3.1 (2026-11-06)
 - Fix: in the automatic low quality mode a skill effect (the Ash Nova ring, for example) could be left on the screen, following the character, instead of fading away. Effects are now always cleared when they end.
 - Fix: XP orbs stopped dropping in a part of the map after you had left many orbs behind in another one (the new orb merged into a far one). Now the limit counts the orbs around you; when there are too many around you a new orb flies to you at once, and orbs left far away never stop new ones from dropping.
