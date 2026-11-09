@@ -1,5 +1,8 @@
 # Patch notes
 
+## alpha 0.8.5 (2026-11-09)
+- New look for shields: when you have a shield (from a crate or an urn, or from a class skill) the blue ring is gone; small shields circle your character instead, at a wider radius, in the style of the class: a demonic red horned shield for the Ash Summoner, a blue shield with lightning for the Shaman and a shield of bones and a skull for the Dark Knight. Nothing changes in how shields work.
+
 ## alpha 0.8.4 (2026-11-09)
 - New: a small "Apoie o jogo" button on the main screen (bottom right) and in the help window opens the page where you can support the game on Buy Me a Coffee. Supporting gives nothing inside the game; it only helps the development continue.
 
