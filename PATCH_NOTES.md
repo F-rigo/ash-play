@@ -1,5 +1,8 @@
 # Patch notes
 
+## alpha 0.8.4 (2026-11-09)
+- New: a small "Apoie o jogo" button on the main screen (bottom right) and in the help window opens the page where you can support the game on Buy Me a Coffee. Supporting gives nothing inside the game; it only helps the development continue.
+
 ## alpha 0.8.3 (2026-11-09)
 - Pets no longer fight, so they cannot help (or hurt) a Tower climb. They collect instead: the Mire Hopper walks to an XP orb, stands on it and sends it flying to you, one at a time (it leaves crates, urns and coins alone); the Cinder Imp does the same and also takes coins; the Ember Wasp does it too and is faster, a little faster still at each level; the Slag Brute is a small magnet that pulls the orbs and coins that come close to it. They walk slower than before. The Ash Warden and the Vault Phoenix are not designed yet: they show as "Coming soon" and cannot be equipped, and every pet shows a short line of what it does, even while locked.
 - Starting a stage (Traditional mode) now deletes your saved Tower run, so a stage cannot be farmed to come back to the Tower stronger. The Traditional text warns about it when a Tower is saved.
