@@ -1,5 +1,10 @@
 # Patch notes
 
+## alpha 0.8.2 (2026-11-09)
+- New: Tower ranking. On the main screen, TOWER RANKING shows the best floors of all players (top 20, and your own place). Choose a name there; when a Tower run ends, your best floor and time are sent (a score waits in the save if there is no name or no internet). Only the name you type, the floor, the time, the game version and a random code of your device are sent. A floor that is impossible for the time played is refused.
+- New: Tower return point. A Tower run is saved every 10 seconds, when a floor falls, when you leave the app and when you leave through the pause window. If the game reloads or you close the app, CONTINUE TOWER appears on the main screen (with the floor, the time and the class) and brings you back a few seconds before: floor, time, level, skills, orbs, health and coins. The enemies of the floor start again. Dying, or starting a new Tower, deletes it. A continued Tower counts for the ranking.
+- New main screen layout: Shop, Pets (the collection), How to play and Ranking are icons at the sides of PLAY. The caster and the two foes stand higher, and the Look button and the version text follow the bottom of the screen, so nothing hides behind them on tall phones.
+
 ## alpha 0.8.1 (2026-11-09)
 - Fix: the game could reload by itself on an iPhone during a Tower run (the browser took the graphics away). The cause was the power orbs that drop when a Tower boss falls: 120 pictures were made at once (+165 MB of graphics memory and a freeze of several seconds). They now use 3 shared pictures, tinted and moved. Nothing else changes in how they look or work.
 - Fix: the pictures of the previous run (another stage, class or boss) were kept in graphics memory when a new run started, so a long session grew. They are now freed when a new run replaces the scene, and made again while the loading screen is up.
