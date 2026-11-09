@@ -1,5 +1,10 @@
 # Patch notes
 
+## alpha 0.8.1 (2026-11-09)
+- Fix: the game could reload by itself on an iPhone during a Tower run (the browser took the graphics away). The cause was the power orbs that drop when a Tower boss falls: 120 pictures were made at once (+165 MB of graphics memory and a freeze of several seconds). They now use 3 shared pictures, tinted and moved. Nothing else changes in how they look or work.
+- Fix: the pictures of the previous run (another stage, class or boss) were kept in graphics memory when a new run started, so a long session grew. They are now freed when a new run replaces the scene, and made again while the loading screen is up.
+- Coin and orb animations use 16 stored frames instead of 24.
+
 ## alpha 0.8 (2026-11-08)
 - New menu. PLAY opens a flow: mode (Traditional or Tower), a short text about the mode with OK, the stage list (Traditional), the character, the companion and START. Every step has Back. The Tower button left the main screen: the Tower is a mode now. QUICK START repeats the last mode, stage and class. A loading screen covers the moment the game reloads for another stage or class and for Play again.
 - The stage list shows the rules of each open stage (a harder start, a better pay, walls) and a tip.
