@@ -1,5 +1,19 @@
 # Patch notes
 
+## alpha 0.9 (2026-11-19)
+- Three new classes, each unlocked by clearing its stage (the class is that stage's boss): the Paladin (stage 1-4), the Druid (stage 1-5) and the Ranger (stage 1-6). Each has a starting skill, eight active skills, passives, skill combinations, its own look, its own basic attack and its own shields.
+  - Paladin: a shield and a mace, light skills (Hallowed Ground, Orbiting Hammers, Sky Verdict, Bastion of Light, Mending Radiance, Lance of Dawn, Mace Smite).
+  - Druid: Sunbolt, Wild Cyclones that drift and shove enemies, Moonfall, Eclipse (sun and moon phases), Bearskin, Grove of Renewal, Thorn Bramble, Starfall.
+  - Ranger: arrows and real traps (Blast, Frost and Ember Traps planted where you stand, bursting when an enemy steps near), Piercing Volley, Marked Prey, Snare Net, Rapid Barrage.
+- Four new stages: 1-3 Pinewood Reach (forest enemies, ponds, log walls, the boss Oldroot), 1-4 Odin's Hall (vikings, pillars and braziers, the Gilded Paladin), 1-5 Moonlit Grove (the Moon Moth, the Druid as boss) and 1-6 Hunter's Steppe (the Steppe Wolf, the Ranger as boss). Older bosses grow stronger on later stages.
+- Every class skill now has its own icon, and the skills have their own animations per class (sun fans, holy rings, thorn fans, moon and blast slams, hammers, stars, tracers, ice bursts, swords, cyclones, an eclipse ring, ice spikes, static bolts). The Frost Trap shows ice exploding.
+- Every class's basic attack flies its own way (zigzag, spinning blade, wave, returning shield, straight arrow), with the same numbers. Shields circle the player in the style of the class (also gold for the Paladin, bear for the Druid, hunter for the Ranger).
+- Cone skills of every class come every 2 seconds and burst out; the Ranger's Piercing Volley shows its arrows.
+- The Shaman and the Dark Knight no longer have pet skills; they get Static Field and Spectral Blades.
+- Tower: the first floors are gentler for a new player (the first boss is medium without the shop), enemies grow a little faster per floor, enemy health follows the damage you build, kill XP follows floors and time, and the horde thins when a boss arrives. Tower bosses drop coin bags, a Vacuum Orb, a Life Potion and a Titan orb. A window asks for your name before the Tower when the ranking is on (Enter saves it).
+- The Skills screen scrolls, so every skill and combination can be read.
+- The support button reads "Buy me a coffee".
+
 ## alpha 0.8.5 (2026-11-09)
 - New look for shields: when you have a shield (from a crate or an urn, or from a class skill) the blue ring is gone; small shields circle your character instead, at a wider radius, in the style of the class: a demonic red horned shield for the Ash Summoner, a blue shield with lightning for the Shaman and a shield of bones and a skull for the Dark Knight. Nothing changes in how shields work.
 
