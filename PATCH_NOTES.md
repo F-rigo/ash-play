@@ -1,5 +1,8 @@
 # Patch notes
 
+## alpha 0.9.1 (2026-11-19)
+- Fix: the phone keyboard did not open when you tapped the name input before a Tower run. On a phone the name now opens in the browser's own text window, which always shows the keyboard. Before a Tower run the window opens by itself; typing the name and confirming it saves it (it is chosen once and cannot be changed later) and starts the Tower. Nothing else changes.
+
 ## alpha 0.9 (2026-11-19)
 - Three new classes, each unlocked by clearing its stage (the class is that stage's boss): the Paladin (stage 1-4), the Druid (stage 1-5) and the Ranger (stage 1-6). Each has a starting skill, eight active skills, passives, skill combinations, its own look, its own basic attack and its own shields.
   - Paladin: a shield and a mace, light skills (Hallowed Ground, Orbiting Hammers, Sky Verdict, Bastion of Light, Mending Radiance, Lance of Dawn, Mace Smite).
